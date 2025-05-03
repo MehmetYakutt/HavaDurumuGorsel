@@ -1,0 +1,33 @@
+# Hava Durumu Verisi Görselleştirme Projesi
+
+Bu proje, bir hava durumu API'si kullanarak şehir bazında hava durumu verilerini alır ve bu verileri görselleştirir. Kullanıcılar, sıcaklık, nem ve rüzgar hızı gibi hava durumu verilerini kolayca görselleştirebilirler.
+
+## İçindekiler
+- [Proje Açıklaması](#proje-açıklaması)
+- [Kurulum Talimatları](#kurulum-talimatları)
+- [Kullanım](#kullanım)
+- [Teknolojiler](#teknolojiler)
+- [Katkıda Bulunma](#katkıda-bulunma)
+- [Lisans](#lisans)
+
+## Proje Açıklaması
+Bu proje, bir hava durumu API'sinden veri alarak, bu verileri görselleştirir. Kullanıcılar, API'den alınan verilerle ilgili interaktif grafikler oluşturabilir. Grafikte sıcaklık, nem oranı ve rüzgar hızı gibi hava durumu verileri görselleştirilir.
+
+### Özellikler
+- API'den veri çekme
+- Hava durumu verilerini görselleştirme
+- Dinamik ve interaktif grafikler
+
+## Kurulum Talimatları
+
+Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
+
+1. **Python**'ı bilgisayarınıza yükleyin: [Python Yükleme](https://www.python.org/downloads/)
+2. **Gerekli kütüphaneleri yükleyin**:
+   - `requests` (API veri çekme)
+   - `plotly` (Grafik görselleştirme)
+
+   Komut satırında (cmd veya terminal) şu komutları çalıştırarak gerekli kütüphaneleri yükleyebilirsiniz:
+
+   ```bash
+   pip install requests plotly
